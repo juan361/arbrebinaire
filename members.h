@@ -3,11 +3,11 @@
 enum MEMBER_STATUS{ACT,DCD,RET};
 static const int max_name_length=250;
 struct MEMBER{
-char* firstname;
-char* lastname;
-int birth_date;
-int promotion;
-int status;
+    char* firstname;
+    char* lastname;
+    int birth_date;
+    int promotion;
+    int status;
 };
 typedef struct MEMBER member;
 member *newMEMBER();

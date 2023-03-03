@@ -1,6 +1,6 @@
 #ifndef MEMBERS_TOOLS_H
 #define MEMBERS_TOOLS_H
-#include"Members.h"
+#include"members.h"
 #include<stdio.h>
 int Members_administration(char *filename);
 int scanfMember(member *M);
